@@ -8,7 +8,7 @@ import base64, io, re
 app = Flask(__name__)
 
 # ====== 設定 ======
-MODEL_PATH = "keras_model.h5"       # Teachable Machineから出力した .h5（ファイル名は合わせる）
+MODEL_PATH = "savedmodel"       # Teachable Machineから出力した .h5（ファイル名は合わせる）
 LABELS_PATH = "labels.txt"    # 同梱のラベル一覧
 IMG_SIZE = (224, 224)         # 画像分類の標準サイズ
 NORMALIZE_0_1 = True          # 0-1正規化（結果が変なら False にして試す）
