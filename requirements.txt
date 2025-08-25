@@ -1,4 +1,4 @@
-flask
-gunicorn
-pillow
-tensorflow-cpu==2.12.*
+flask==2.3.2
+gunicorn==21.2.0
+pillow==11.0.0
+tensorflow-cpu==2.20.0
