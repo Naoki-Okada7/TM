@@ -1,3 +1,4 @@
 flask
-tensorflow
-Pillow
+gunicorn
+pillow
+tensorflow-cpu==2.12.*
